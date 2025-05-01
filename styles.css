@@ -1,0 +1,284 @@
+.a {
+  color: white;
+  font-family: "Roboto-Light";
+}
+
+hr {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  unicode-bidi: isolate;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  padding-right: 100px;
+  position: relative;
+}
+
+.site-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto-Light";
+  font-weight: 24px;
+  letter-spacing: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  font-family: "Roboto";
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.gallery {
+  display: wrap;
+  flex-wrap: wrap;
+}
+
+.gallery-image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.img__description {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Roboto";
+  text-decoration: none;
+  padding-top: 25px;
+}
+
+@supports (display: grid) {
+ .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
+  grid-gap: 2rem;
+ }
+.gallery,
+ .gallery-item {
+  margin: 50px;
+ }
+}
+
+.topnav {
+background-color: black;
+height: 50px;
+}
+
+.topnav a {
+    color: white;
+    margin-right: 100px;
+    float: right;
+    padding: 0px 0px;
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.topnav a:hover {
+    color: yellow;
+}
+
+.h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.body {
+  background-color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 25%;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  color: #fff;
+  font-size: 48px;
+  padding: 10px 10px;
+  text-align: center;
+  text-shadow: 0px 0px 0px black;
+  font-family: helvetica;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+.scrolling {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  font-family: helvetica;
+  color: #fff;
+}
+
+.dynamic-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 10px;
+  text-align: center;
+  letter-spacing: 5px;
+  animation-duration: 3s;
+  animation-name: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-family: helvetica;
+}
+
+.box {
+  position: absolute;
+  background: transparent;
+  width: 25%;
+  height: 75%;
+}
+
+.box-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+
+}
+
+.h {
+  position: relative;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+
+}
+
+.a:link {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+.a1:link{
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto";
+  position: relative;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('Roboto/static/Roboto-Regular.ttf');
+  src: url('Roboto/static/Roboto-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("Roboto/static/Roboto-Thin.ttf") format('ttf');
+}
+
+.circular-box-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+  border-radius: 50%;
+
+}
+
+.footer {
+  background-color: black;
+  font-size: 14px;
+  font-family: helvetica;
+
+}
+
+.flex-container {
+  display: flex;
+  background-color: #000000;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.flex-div {
+  display: block;
+  margin-left: 20px;
+  margin-right: auto;
+  width: 30%;
+  font-size: 14px;
+}
+
+.flex-div-r {
+  display: block;
+  margin-left: auto;
+  margin-right: 10px;
+  width: 30%;
+  text-align: right;
+  font-size: 14px;
+}
+
+.grid-container {
+  display: grid;
+  height: 400px;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+  align-content: space-evenly;
+}

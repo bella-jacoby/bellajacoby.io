@@ -1,0 +1,42 @@
+
+
+.body {
+  display: block;
+  background-color: black;
+  color: #fff;
+  /*background-image: linear-gradient(black, white);*/
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 50px;
+}
+
+.body-text {
+  color: white;
+ 
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto-Med';
+  width: 100px;
+}
+
+.header {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 18px;
+  font-weight: lighter;
+  position: fixed;
+  top: 200px;
+  left: 400px;
+}
+
+.p {
+  color: white;
+  font-style: normal;
+  text-align: center;
+}
+
+/* SCRAP CODE
+background-image: linear-gradient(black, white); */
