@@ -1,0 +1,63 @@
+/* if you do not remove the margin, you will see a vertical scrollbar on the .parallax div */
+body {
+    margin: 0;
+  }
+  
+  /* parallax "viewport" */
+  .parallax {
+    height: 100vh;
+  
+    overflow-x: hidden;
+    overflow-y: auto;
+  
+    perspective: 1px;
+  }
+  
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .layer1 {
+    transform: translateZ(0);
+  }
+  
+  .layer2 {
+    transform: translateZ(-1px);
+  }
+  
+  .layer3 {
+    transform: translateZ(-2px);
+  }
+
+.parallax-layer.layer1 {
+  width: 100%;
+  height: 100rem;
+
+  background-image: linear-gradient(135deg, #b0ff1eff, #2b061eff, #6e8894ff, #ffffffff, #273e47ff);
+}
+
+.parallax-layer.layer2 {
+  top: 10rem;
+
+  width: 100%;
+  height: 50rem;
+
+  background-color: green;
+}
+.parallax-layer.layer3 {
+  top: 20rem;
+
+  width: 100%;
+  height: 50rem;
+
+  background-color: blue;
+}
+
+div{
+  font-size: 50px;
+  text-align: center;
+}
