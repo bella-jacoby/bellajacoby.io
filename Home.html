@@ -2,49 +2,134 @@
 <html lang="en">
 
 <head>
-       <meta charset = 'utf-8'>
-       <title> Design by Isabella Jacoby </title>
-       <link rel="stylesheet" href="styles.css">
-       <link rel="shortcut icon" type="image/x-icon" href="graphic-editor_11904976.png"/>
-       <link rel="custom font" href="Roboto-Regular.ttf">
-    </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bella Jacoby Portfolio</title>
+  <link rel="font" href="Roboto-Light.ttf">
+  <link rel="font" href="Roboto-Medium.ttf">
+  <link rel="font" href="Roboto-Bold.ttf">
+  <link rel="stylesheet" href="Home.css">
+</head>
+<body>
 
-<div class="header">
-  <h1 class="site-title"><a class="a" href="index.html">Bella Jacoby</a></h1>
-  <nav class="nav-links">
-    <a class="a" href="design.html">DESIGN</a>
-    <a class="a" href="other.html">OTHER</a>
-    <a class="a" href="cv.html">CV</a>
-  </nav>
-</div>
 
-<div background = "black" margin = "10px" height = "100px">
-<hr color = "dodgerblue" weight = "5px">
 
-<body class = "body">
-
-<div class = "gallery">
-    <div class = "gallery-item">
-      <a href="adc.html" target="_top">
-        <div class="img__wrap">
-          <img class="gallery-image"
-          border="0" align="center" src="In-Flight_Test_Mock_Img.png">
-          <div class = "img__description">ADC</div>
-        </div>
-      </a>
+  <hr> 
+  <div class="parallax">
+    <div class="parallax-window">
+      <div class="circle"></div>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
     </div>
-
-    <div class = "gallery-item">
-      <a href="adc.html" target="_top">
-        <div class="img__wrap">
-          <img class="gallery-image"
-          border="0" align="center" src="In-Flight_Test_Mock_Img.png">
-          <div class = "img__description">ADC</div>
+    <header class="header">
+      <div class="box">
+        <a href="Home.html"><img src="Icon_2.png"></a>
+        <a href="Home.html">Home</a>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <a href="Research.html">Research</a>
+      <a href="UX_Design.html">UX Design</a>
+      <a href="Code.html">Code</a>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div class="box">
+        <a href="About.html">CV</a>
+      </div>
+    </header>
+    <section id="portfolio" class="portfolio">
+      <div class="gallery">
+          <div class="gallery-item">
+              <div class="image-wrapper">
+                <div class="subtitle">Bella Jacoby</div>
+                <div class="title">Design +Data</div>
+                <div class="rotate">/ Questions</div>
+                <div class="subtext">Answers</div>
+              </div>
+          </div>
+          <div class="gallery-item">
+              <div class="caption">SELECTED WORK</div>
+              <div class="image-wrapper">
+                <img src="In-Flight_Test_Mock_Img.png" alt="Project 1">
+                <!--<div class="overlay-text">Clinician-Linked Treatment Infrastructure for Patients with Mental Illness</div>-->
+              </div>
+              <div class="caption">Caption</div>
+          </div>
+        <!-- Add more items as needed -->
+      </div>
+      <a href="#intro"><button class="button">More</button></a>
+      <section id="intro" class="intro">
+        <div class="intro-text">
+          <div class="intro-text">Hello, my name is Bella Jacoby.</div>
+          <div class="intro-text"><p>I am a product designer with an interdisciplinary background in UX, PM Work, Research, and Business. 
+            After 4+ years of startup experience, I am currently building my programming skillsets and looking for front-end developer roles.</p></div>
         </div>
-      </a>
-    </div>
+        <div class="intro-card">
+           <img src="Bella_Portrait_1.jpeg">
+           <div class="subtitle">Geospatial Design
+            <a href="UX_Design.html"><div class="card-button">Learn More</div></a>
+           </div>
+        </div>
+      </section>
+    </section>
 
-</div>
+    <section id="sitemap" class="intro">
+      <div class="sitemap">
+         <div id="first" class="sitemap-box">Research<img src="Sitemap_Arrow_1.png"></div>
+         <div id="second" class="sitemap-box">UX Design</div>
+         <div id="third" class="sitemap-box">Code</div>
+         <div class="sitemap-text">About Me</div>
+      </div>
+    </section>
+
+    <div class="spacer"></div>>
+    <div class="spacer"></div>>
+    <div class="spacer"></div>>
+
+    <section id="slider" class="slider">
+      <div class="subtitle">Projects</div>
+      <div class="slider-container">
+        <div class="slider-slide">
+          <img src="ADC_2.png" alt="ADC_2">
+          <!--<div class="slider-overlay-text">Caption for Image 1</div>-->
+        </div>
+        <div class="slider-slide">
+          <img src="Subsurface_Thumb.png" alt="Subsurface_Thumb">
+          <!--<div class="slider-overlay-text">Caption for Image 2</div>-->
+        </div>
+        <div class="slider-slide">
+          <img src="https://via.placeholder.com/1600x1000.png?text=Image+3" alt="Image 3">
+          <!--<div class="slider-overlay-text">Caption for Image 3</div>-->
+        </div>
+      </div>
+    </section>
+
+    <div class="spacer">
+    </div>
+  
+    <hr>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-l">
+        <a href="Home.html">Home</a>
+        <a href="Home.html">Github</a>
+        <a href="About.html">CV</a>
+    </div>
+    <div></div>
+    <div class="footer-box">
+      <a href="Home.html"><img src="Icon_1.png"></a>
+      <a>&copy; 2025 BELLA JACOBY</a>
+    </div>
+    <div></div>
+    <div class="footer-r">
+      <a href="x.com">X</a>
+      <a href="linkedin.com">LinkedIn</a>
+    </div> 
+  </footer>
 
 </body>
 
